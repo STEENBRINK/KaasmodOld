@@ -1,0 +1,21 @@
+[
+{
+  "modid": "Kaasmod",
+  "name": "Steenbrink's Kaasmod",
+  "description": "Create your own cheese with this mod :-)",
+  "version": "0.0.1",
+  "url": "http://github.com/STEENBRINK/kaasmod",
+  "updateUrl": "",
+  "authorList": [
+    "STEENBRINK",
+    "msvisser"
+  ],
+  "credits": "By STEENBRINK & msvisser",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
