@@ -54,7 +54,7 @@ public class kaasmod {
         GameRegistry.registerWorldGenerator(new SaltGenerator());
         
         VillagerRegistry.instance().registerVillagerId(ReferenceID.JANNEKE);
-        VillagerRegistry.instance().registerVillagerSkin(ReferenceID.JANNEKE, new ResourceLocation(Reference.PATH_RESOURCES, Reference.PATH_JANNEKE + "janneke.png"));
+        VillagerRegistry.instance().registerVillagerSkin(ReferenceID.JANNEKE, new ResourceLocation(Reference.PATH_RESOURCES, Reference.PATH_JANNEKE + "Janneke.png"));
         VillagerRegistry.instance().registerVillageTradeHandler(ReferenceID.JANNEKE, new JannekeVillageTrades());
     }
     
