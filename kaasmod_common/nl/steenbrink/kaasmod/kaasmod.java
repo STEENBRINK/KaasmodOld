@@ -50,15 +50,12 @@ public class kaasmod {
         Items.init();
         
         Recipes.init();
-        //Loot.init();
         
         GameRegistry.registerWorldGenerator(new SaltGenerator());
         
         VillagerRegistry.instance().registerVillagerId(ReferenceID.JANNEKE);
         VillagerRegistry.instance().registerVillagerSkin(ReferenceID.JANNEKE, new ResourceLocation(Reference.PATH_RESOURCES, Reference.PATH_JANNEKE + "janneke.png"));
         VillagerRegistry.instance().registerVillageTradeHandler(ReferenceID.JANNEKE, new JannekeVillageTrades());
-        
-        //LanguageRegistry.instance().addStringLocalization("itemGroup." + Reference.MOD_ID, "Kaasmod");
     }
     
     @EventHandler
