@@ -163,7 +163,7 @@ public class TilePurifier extends TileEntity implements ISidedInventory {
     }
 
     public String getInvName() {
-        return "container.purifiermachine";
+        return "Purifier";
     }
 
     public int getInventoryStackLimit() {

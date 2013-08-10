@@ -10,7 +10,7 @@ import nl.steenbrink.kaasmod.lib.Texture;
 public class RoastedsandwichItem extends ItemFood {
     
     public RoastedsandwichItem(int id) {
-        super(id, 13, true);
+        super(id, 17, true);
         this.setCreativeTab(CreativeTabs.tabFood);
     }
     

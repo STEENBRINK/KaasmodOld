@@ -157,7 +157,7 @@ public class TileKaascreator extends TileEntity implements ISidedInventory {
     }
 
     public String getInvName() {
-        return "container.kaascreatormachine";
+        return "Kaascreator";
     }
 
     public int getInventoryStackLimit() {

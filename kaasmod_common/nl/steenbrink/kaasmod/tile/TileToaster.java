@@ -166,7 +166,7 @@ public class TileToaster extends TileEntity implements ISidedInventory {
     }
 
     public String getInvName() {
-        return "container.toastermachine";
+        return "Toaster";
     }
 
     public int getInventoryStackLimit() {

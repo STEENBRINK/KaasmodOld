@@ -10,7 +10,7 @@ import nl.steenbrink.kaasmod.lib.Texture;
 public class CheesebaconbreadItem extends ItemFood {
     
     public CheesebaconbreadItem(int id) {
-        super(id, 8, true);
+        super(id, 15, true);
         this.setCreativeTab(CreativeTabs.tabFood);
     }
     
